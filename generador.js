@@ -2,11 +2,13 @@ var arrayUs = ['u','ū','ú','ǔ','ù','ŭ','û','ü','ů','ų','ũ','ű','ȕ','
 //inicio
 $('document').ready(function(){
   $('.uwuContent').html(nuevoUwu());
-});
-//evento de click
-$('.btnGenerar').click(function(){
-  console.log('click');
-  $('.uwuContent').html(nuevoUwu());
+
+  //evento de click
+  $('.btnGenerar').click(function(){
+    console.log('click');
+    $('.uwuContent').html(nuevoUwu());
+  });
+  
 });
 
 //declaración de función
