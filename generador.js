@@ -5,6 +5,7 @@ $('document').ready(function(){
 });
 //evento de click
 $('.btnGenerar').click(function(){
+  console.log('click');
   $('.uwuContent').html(nuevoUwu());
 });
 
