@@ -1,0 +1,36 @@
+h1,h2{
+  margin:0;
+}
+
+body{
+  text-align: center;
+  font-family: 'Open Sans';
+  color: #666;
+  font-size: 0.9em;
+}
+
+h1{
+  color: #aaa;
+  font-size: 4em;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.uwuContent{
+  font-size: 7em;
+}
+
+.btnGenerar{
+  border: solid 2px #99f;
+  padding: 10px 25px;
+  border-radius: 15px;
+  background: 0;
+  font-family: inherit;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.btnGenerar:hover{
+  background-color: #ddf;
+  transition: 0.4s;
+}
